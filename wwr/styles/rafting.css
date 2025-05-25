@@ -128,3 +128,28 @@ body, html {
   padding-bottom: 0%; 
   border-bottom: 0cap;
 }
+
+.footer {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  height: auto; 
+  background-color: rgba(9, 9, 10, 0.856);
+}
+
+.reserved {
+  margin-left: auto; 
+  margin-right: auto; 
+  color: white;
+}
+
+.social-media {
+  display: flex; 
+  flex-direction: row; 
+  margin-left: 3px; 
+  gap: 5px;
+}
+
+.social-media-text {
+  color: white;
+}
