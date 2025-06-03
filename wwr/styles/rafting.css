@@ -14,12 +14,12 @@
   box-sizing: border-box;
 }
 body {
-  font-family: var(--body-font);
+  font-family:"Lato", sans-serif;
   line-height: 1.6;
   background-color: var(--accent1-color);
 }
 h1, h2 {
-  font-family: var(--heading-font);
+  font-family:  "Merriweather Sans", sans-serif;
   color: var(--primary-color);
 }
 nav, p, section, article {
@@ -118,8 +118,8 @@ nav a:focus {
 /* Main Content Overlay */
 .main {
   position: absolute;
-  top: 100;
-  left: 100;
+  top: 0;
+  left: 0;
   z-index: 10;
   width: 100%;
   display: flex;
