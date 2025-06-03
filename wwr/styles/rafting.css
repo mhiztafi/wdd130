@@ -1,11 +1,10 @@
 :root {
-  --primary-color: #ebf5eb;
-  --secondary-color: #f8faf3;
-  --accent1-color: #86ece4;
-  --accent2-color: #e9c46a;
-  --heading-font: "Merriweather Sans", sans-serif;
-  --body-font: "Lato", sans-serif;
-}
+  --primary-color:   #ebf5eb;   /* kept as is: very light green */
+--secondary-color: #f8faf3;   /* kept as is: nearly white */
+--accent1-color:   #2aa39e;   /* darker aqua (accessible contrast) */
+--accent2-color:   #c59d22;   /* richer gold (better contrast) */
+--heading-font:    "Merriweather Sans", sans-serif;
+--body-font:       "Lato", sans-serif;
 
 /* Reset and Base Styles */
 * {
