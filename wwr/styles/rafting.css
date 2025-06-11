@@ -287,6 +287,6 @@ figure img {
 .map-frame {
   border: 0;
   margin-top: 1rem;
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
