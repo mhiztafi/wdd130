@@ -109,7 +109,7 @@
 
     <section class="map">
       <h2>Find Us Here:</h2>
-      <iframe class="map-frame" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15884.906545370608!2d5.702544524452715!3d5.533363769025275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1749286670282!5m2!1sen!2sng">
+      <iframe class="map-frame" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15884.906545370608!2d5.702544524452715!3d5.533363769025275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1749286670282!5m2!1sen!2sng"
        allowfullscreen
        loading="lazy">
       </iframe>
@@ -138,6 +138,10 @@
           <img src="images/img5.png" alt="rafting">
           <figcaption>employee photo</figcaption>
         </figure>
+        <figure>
+          <img src="images/img3.png" alt="rafting">
+          <figcaption>employee photo</figcaption>
+        </figure>
       </div>
     </section>
 
@@ -150,16 +154,26 @@
         <label for="email">Email Address:</label>
         <input type="email" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
 
-        <label for="purpose">Message Purpose:</label>
-      <select id="purpose" name="purpose" required>
-        <option value="">--Please choose an option--</option>
-       <option value="inquiry">General Inquiry</option>
-        <option value="booking">Reservation Question</option>
-        <option value="Website suggestion">Website Suggestion</option>
-    </select>
+        <fieldset>
+  <legend>Purpose of Your Message</legend>
 
+  <label for="general">
+    <input type="radio" id="general" name="purpose" value="general">
+    General Inquiry
+  </label><br>
 
-               <label for="message">Your Message:</label>
+  <label for="booking">
+    <input type="radio" id="booking" name="purpose" value="booking">
+    Booking Request
+  </label><br>
+
+  <label for="feedback">
+    <input type="radio" id="feedback" name="purpose" value="feedback">
+    Feedback
+  </label>
+</fieldset>
+
+             <label for="message">Your Message:</label>
         <textarea id="message" name="message" rows="5" required></textarea>
 
         <label for="newsletter">
@@ -169,6 +183,7 @@
 
        <button type="submit" class="submit-button">Message us</button>
       </form>
+      </section>
   </main>
 
      <footer>
