@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" >
+ <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Peace Oyovwe">
-  <meta name="Description" content="contact peace oyovwe rafting Company today for a wonderful rafting experience or to make inquiries. we are here to serve you better">
+  <meta name="description" content="Contact Peace Oyovwe Rafting Company today to schedule your rafting adventure or get more information. We're here to assist you.">
   <title> Peace Oyovwe Rafting Company | Contact us</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -95,9 +95,10 @@
           <li><a href="contact.html">Contact us</a></li>
         </ul>
       </nav>
+      </section>
     </header>
 
-        <main>
+        <section class="info">
       <h1>Contact Us</h1>
       <section class="contact-info">
       <p><strong>Address:</strong> 12 ogunu road, warri, Delta state</p>
@@ -107,7 +108,10 @@
 
     <section class="map">
       <h2>Find Us Here:</h2>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15884.906545370608!2d5.702544524452715!3d5.533363769025275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1749286670282!5m2!1sen!2sng" style="map-frame"></iframe>
+      <iframe class="map-frame" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15884.906545370608!2d5.702544524452715!3d5.533363769025275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1749286670282!5m2!1sen!2sng">
+       allowfullscreen
+       loading="lazy">
+      </iframe>
         </section>
 
     <section class="team">
@@ -143,7 +147,7 @@
         <input type="text" id="fullname" name="fullname" required>
 
         <label for="email">Email Address:</label>
-        <input type="email" id="email" name="email" required>
+        <input type="email" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
 
         <label for="purpose">Message Purpose:</label>
       <select id="purpose" name="purpose" required>
@@ -157,14 +161,12 @@
                <label for="message">Your Message:</label>
         <textarea id="message" name="message" rows="5" required></textarea>
 
-        <label class="newsletter">
+        <label for="newsletter">
           <input type="checkbox" name="subscribe">
           Please subscribe me to the monthly newsletter
         </label>
 
-        <label type="submit">
-        <button type="submit" class="submit-button"> Message us</button>
-        </label>
+       <button type="submit" class="submit-button">Message us</button>
       </form>
     </section>
   </main>
